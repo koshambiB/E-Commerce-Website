@@ -1,0 +1,109 @@
+
+.slider-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 474px;
+    width: 1280px;
+    margin-bottom: 50px;
+}
+.slider-frame img{
+    object-fit: contain;
+}
+.heading{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Playfair Display";
+  font-weight: 500;
+  font-style: normal;
+}
+.products{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:20px;
+}
+.mood-pick{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:25px;
+}
+
+.products img{
+    border-radius: 3px;
+}
+.bestsellers{
+    margin-bottom:20px;
+}
+.product-description{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.text{
+    flex-basis: 70%;
+    font-size: 18px;
+    font-family: "PT Serif",serif;
+    color:rgb(87, 82, 82);
+}
+.price{
+    flex-basis:25%;
+    font-size: 20px;
+    font-size: 18px;
+    font-family: "PT Serif",serif;
+    color:rgb(50, 29, 235)
+}
+
+.picks p{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.one{
+    background-color: #c5c5c5;
+}
+.two{
+    background-color: #bf7e7e;
+}
+.three{
+    background-color: #edcb9c;
+}
+.four{
+    background-color: #6f8faf;
+}
+.footer{
+    margin-top:40px;
+    background:linear-gradient(to bottom, #d1ceb1, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:30px;
+    font-family: "Playfair Display",serif;
+}
+.footer p{
+    font-size: 40px;
+    
+}
+.footer input{
+    margin-top: 30px;
+    margin-right: 20px;
+    padding:10px;
+    padding-right: 50px;
+    font-size:20px;
+    outline:none;
+}
+.footer button{
+    border: rgb(153, 143, 143) solid 1px;
+    padding:10px 20px;
+    font-size:18px;
+    border-radius: 10px;
+    transition: ease 0.25s;
+}
+.footer button:hover{
+    border:black solid 1.2px;
+}

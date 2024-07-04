@@ -1,0 +1,17 @@
+.bestsellers h1{
+    font-family: "Cinzel";
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(56, 53, 53);
+}
+.bestsellers p{
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.option{
+    font-size: 20px;
+    font-family:"Work Sans",sans-serif;
+}
