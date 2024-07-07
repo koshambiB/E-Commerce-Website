@@ -33,7 +33,7 @@
 .products img{
     border-radius: 3px;
 }
-.bestsellers{
+.bestseller{
     margin-bottom:20px;
 }
 .product-description{
@@ -41,19 +41,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
-}
-.text{
-    flex-basis: 70%;
-    font-size: 18px;
-    font-family: "PT Serif",serif;
-    color:rgb(87, 82, 82);
-}
-.price{
-    flex-basis:25%;
-    font-size: 20px;
-    font-size: 18px;
-    font-family: "PT Serif",serif;
-    color:rgb(50, 29, 235)
 }
 
 .picks p{

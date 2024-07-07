@@ -18,14 +18,14 @@ const Home = () => {
     <div className="slider-frame">
           <img src={Banner1}/>
     </div>
-    <div className="bestsellers">
+    <div className="bestseller">
         <p className="heading">Bestsellers</p>
         <div className="products">
           <div className="product-1">
             <img src={product1}/>
             <div className="product-description">
               <p className='text'>Drawstring mesh cover-up tube top</p>
-              <p className="price">$ 80</p>
+              <p className="price">$ 40</p>
             </div>
           </div>
           <div className="product-2">
@@ -60,7 +60,7 @@ const Home = () => {
           <img src={product4}/>
           <div className="product-description">
               <p className="text">Washed denim vintage co-ords set</p>
-              <p className="price">$ 420</p>
+              <p className="price">$ 290</p>
             </div>
           
           </div>
@@ -68,7 +68,7 @@ const Home = () => {
           <img src={product7}/>
           <div className="product-description">
               <p className="text">Velvet red off-shoulder mini dress</p>
-              <p className="price">$ 338</p>
+              <p className="price">$ 138</p>
             </div>
           </div>
         </div>

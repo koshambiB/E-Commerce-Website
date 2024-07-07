@@ -1,0 +1,29 @@
+.clothing h1{
+    font-family: "Cinzel";
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(56, 53, 53);
+}
+.clothing p{
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.option{
+    font-size: 20px;
+    font-family:"Work Sans",sans-serif;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+hr{
+    border-width: 1px;
+    border-color: rgb(94, 93, 93);
+}
+.clothing-products{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+}

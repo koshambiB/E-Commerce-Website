@@ -1,0 +1,19 @@
+.item-description{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.text{
+    flex-basis: 70%;
+    font-size: 18px;
+    font-family: "PT Serif",serif;
+    color:rgb(87, 82, 82);
+}
+.price{
+    flex-basis:25%;
+    font-size: 20px;
+    font-size: 18px;
+    font-family: "PT Serif",serif;
+    color:rgb(50, 29, 235)
+}
